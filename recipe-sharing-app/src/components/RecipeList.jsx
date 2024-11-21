@@ -1,12 +1,13 @@
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { useRecipeStore } from "./recipeStore";
 
-import { Link } from 'react-router-dom';
-import { useRecipeStore } from './recipeStore';
 const RecipeList = () => {
-  const recipes = useRecipeStore((state) => state.recipes);
+  const filteredRecipes = useRecipeStore((state) => state.filteredRecipes);
 
   return (
     <div>
-      {recipes.map((recipe) => (
+      {filteredRecipes.map((recipe) => (
         <div key={recipe.id}>
           <h3>
             <Link to={`/recipe/${recipe.id}`}>{recipe.title}</Link>
@@ -18,4 +19,3 @@ const RecipeList = () => {
 };
 
 export default RecipeList;
-
