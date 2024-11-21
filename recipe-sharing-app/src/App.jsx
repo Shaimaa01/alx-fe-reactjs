@@ -6,7 +6,7 @@ import EditRecipeForm from './components/EditRecipeForm';
 import AddRecipeForm from './components/AddRecipeForm';
 import SearchBar from './components/SearchBar';
 import FavoritesList from './components/FavoritesList';
-import RecommendationsList from './components/Recommendations';
+import RecommendationsList from './components/RecommendationsList';
 
 const App = () => {
   return (
