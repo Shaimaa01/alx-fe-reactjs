@@ -36,6 +36,26 @@ const useRecipeStore = create((set) => ({
             .includes(state.searchTerm.toLowerCase()) // Include description search if needed
       ),
     })),
+
+    favorites: [],
+
+    addFavorite: (recipeId) => set(state => ({
+      favorites: [...state.favorites, recipeId],
+    })),
+
+    removeFavorite: (recipeId) => set(state => ({
+      favorites: state.favorites.filter(id => id !== recipeId),
+    })),
+
+    recommendations: [],
+
+    generateRecommendations: () => set(state => {
+      const recommended = state.recipes.filter(recipe =>
+        state.favorites.includes(recipe.id) 
+      );
+      return { recommendations: recommended };
+    }),
+
 }));
 
 export default useRecipeStore;
