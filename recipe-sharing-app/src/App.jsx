@@ -5,8 +5,8 @@ import RecipeDetails from './RecipeDetails';
 import EditRecipeForm from './components/EditRecipeForm';
 import AddRecipeForm from './components/AddRecipeForm';
 import SearchBar from './components/SearchBar';
-import FavoritesList from './FavoritesList';
-import RecommendationsList from './RecommendationsList';
+import FavoritesList from './components/FavoritesList';
+import RecommendationsList from './components/Recommendations';
 
 const App = () => {
   return (
