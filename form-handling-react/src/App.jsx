@@ -3,6 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// eslint-disable-next-line no-unused-vars
+import React from 'react';
+import RegistrationForm from './components/RegistrationForm'; // If you're using the controlled component
+import FormikForm from './components/FormikForm';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -28,6 +33,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+
+      <FormikForm />
+      <RegistrationForm /> 
     </>
   )
 }
