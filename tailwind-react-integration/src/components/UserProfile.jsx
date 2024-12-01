@@ -13,10 +13,11 @@ function UserProfile() {
     md:p-8
     sm:max-w-xs
     md:max-w-sm
+    hover:shadow-xl
     "
     >
       <img
-        className="rounded-full w-36 h-36 mx-auto sm:w-24 sm:h-24 md:w-36 md:h-36"
+        className="rounded-full w-36 h-36 mx-auto sm:w-24 sm:h-24 md:w-36 md:h-36 hover:scale-110 transition-transform duration-300 ease-in-out"
         src="https://via.placeholder.com/150"
         alt="User"
       />
@@ -26,7 +27,7 @@ function UserProfile() {
     text-blue-800
     my-4
     sm:text-lg
-    md:text-xl
+    md:text-xl hover:text-blue-500
     "
       >
         John Doe
