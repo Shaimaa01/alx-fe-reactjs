@@ -8,13 +8,13 @@ const AddRecipeForm = () => {
     preparation: "",
   });
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
+  const handleChange = (event) => {
+    const { name, value } = event.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
     if (validateForm()) {
       console.log("Form submitted:", formData);
       // Add logic to handle the submitted data
@@ -82,6 +82,7 @@ const AddRecipeForm = () => {
             className="w-full  bg-transparent border-b-2 border-stone-300   focus:outline-none mb-2"
           ></textarea>
         </div>
+
         <button
           type="submit"
           className="bg-gradient-to-r  to-amber-600 from-zinc-600  w-fit text-white p-2 mx-auto rounded-lg font-semibold  "
