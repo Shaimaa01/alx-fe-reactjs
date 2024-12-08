@@ -8,9 +8,46 @@ const AddRecipeForm = () => {
     steps: "",
   });
 
+  const [errors, setErrors] = useState({
+    title: "",
+    ingredients: "",
+    steps: "",
+  });
+
   const handleChange = (event) => {
-    
     setFormData({ ...formData, [event.target.name]: event.target.value });
+  };
+
+  const validateForm = () => {
+    let formErrors = { ...errors };
+    let isValid = true;
+
+    if (!formData.title) {
+      formErrors.title = "Recipe title is required!";
+      isValid = false;
+    } else {
+      formErrors.title = "";
+    }
+
+    if (!formData.ingredients) {
+      formErrors.ingredients = "Ingredients are required!";
+      isValid = false;
+    } else if (formData.ingredients.split(",").length < 2) {
+      formErrors.ingredients = "Please include at least two ingredients!";
+      isValid = false;
+    } else {
+      formErrors.ingredients = "";
+    }
+
+    if (!formData.steps) {
+      formErrors.steps = "Preparation steps are required!";
+      isValid = false;
+    } else {
+      formErrors.steps = "";
+    }
+
+    setErrors(formErrors);
+    return isValid;
   };
 
   const handleSubmit = (event) => {
@@ -19,18 +56,6 @@ const AddRecipeForm = () => {
       console.log("Form submitted:", formData);
       // Add logic to handle the submitted data
     }
-  };
-
-  const validateForm = () => {
-    if (!formData.title || !formData.ingredients || !formData.steps) {
-      alert("All fields are required!");
-      return false;
-    }
-    if (formData.ingredients.split(",").length < 2) {
-      alert("Please include at least two ingredients!");
-      return false;
-    }
-    return true;
   };
 
   return (
@@ -51,6 +76,9 @@ const AddRecipeForm = () => {
             onChange={handleChange}
             className="w-full  bg-transparent border-b-2 border-stone-300   focus:outline-none  mb-2"
           />
+          {errors.title && (
+            <p className="text-red-900 text-xs">{errors.title}</p>
+          )}
         </div>
         <div className="">
           <label
@@ -66,13 +94,11 @@ const AddRecipeForm = () => {
             onChange={handleChange}
             className="w-full  bg-transparent border-b-2 border-stone-300   focus:outline-none mb-2"
           ></textarea>
+          {errors.ingredients && <p className="text-red-900 text-xs">{errors.ingredients}</p>}
         </div>
         <div className="">
-          <label
-            className="block text-zinc-900 font-bold"
-            htmlFor="steps"
-          >
-           steps
+          <label className="block text-zinc-900 font-bold" htmlFor="steps">
+            steps
           </label>
           <textarea
             id="steps"
@@ -81,6 +107,7 @@ const AddRecipeForm = () => {
             onChange={handleChange}
             className="w-full  bg-transparent border-b-2 border-stone-300   focus:outline-none mb-2"
           ></textarea>
+          {errors.steps && <p className="text-red-900 text-xs">{errors.steps}</p>}
         </div>
 
         <button
