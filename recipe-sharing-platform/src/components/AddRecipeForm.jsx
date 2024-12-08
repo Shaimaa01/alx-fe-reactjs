@@ -5,7 +5,7 @@ const AddRecipeForm = () => {
   const [formData, setFormData] = useState({
     title: "",
     ingredients: "",
-    preparation: "",
+    steps: "",
   });
 
   const handleChange = (event) => {
@@ -22,7 +22,7 @@ const AddRecipeForm = () => {
   };
 
   const validateForm = () => {
-    if (!formData.title || !formData.ingredients || !formData.preparation) {
+    if (!formData.title || !formData.ingredients || !formData.steps) {
       alert("All fields are required!");
       return false;
     }
@@ -70,14 +70,14 @@ const AddRecipeForm = () => {
         <div className="">
           <label
             className="block text-zinc-900 font-bold"
-            htmlFor="preparation"
+            htmlFor="steps"
           >
-            Preparation Steps
+           steps
           </label>
           <textarea
-            id="preparation"
-            name="preparation"
-            value={formData.preparation}
+            id="steps"
+            name="steps"
+            value={formData.steps}
             onChange={handleChange}
             className="w-full  bg-transparent border-b-2 border-stone-300   focus:outline-none mb-2"
           ></textarea>
