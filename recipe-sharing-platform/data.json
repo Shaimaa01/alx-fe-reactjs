@@ -3,108 +3,218 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish made with eggs, cheese (Pecorino Romano), pancetta, and black pepper. It's creamy, comforting, and full of flavor.",
-    "image": "https://wallpaperaccess.com/thumb/1463534.jpg"
+    "image": "https://wallpaperaccess.com/thumb/1463534.jpg",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta",
+      "2 eggs",
+      "50g Pecorino Romano cheese",
+      "50g Parmesan cheese",
+      "Freshly ground black pepper",
+      "Salt"
+    ],
+    "instructions": [
+      "Cook spaghetti in salted water until al dente.",
+      "Fry pancetta in a pan until crispy.",
+      "Whisk eggs and cheese together, then season with black pepper.",
+      "Combine pasta with pancetta, then mix in the egg mixture.",
+      "Toss until creamy and serve with extra cheese."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth, buttery, and creamy tomato-based gravy with aromatic spices. A popular Indian dish.",
-    "image": "https://wallpaperaccess.com/thumb/9422971.jpg"
+    "image": "https://wallpaperaccess.com/thumb/9422971.jpg",
+    "ingredients": [
+      "500g chicken breast",
+      "1 onion",
+      "2 tomatoes",
+      "1 cup yogurt",
+      "1 tsp garam masala",
+      "1 tsp turmeric",
+      "1 tsp cumin",
+      "1 tsp chili powder",
+      "2 tbsp butter",
+      "1 cup cream",
+      "Fresh cilantro for garnish"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt, spices, and salt for at least an hour.",
+      "Grill chicken or cook in a pan until fully cooked.",
+      "Fry onions, add tomatoes and spices, then cook for a few minutes.",
+      "Add chicken, butter, and cream, simmer for 10 minutes.",
+      "Garnish with cilantro and serve."
+    ]
   },
   {
     "id": 3,
     "title": "Vegetable Stir-Fry",
     "summary": "A vibrant mix of vegetables like bell peppers, carrots, and broccoli stir-fried in a savory sauce made with soy sauce, garlic, and ginger.",
-    "image": "https://wallpaperaccess.com/thumb/12671459.jpg"
+    "image": "https://wallpaperaccess.com/thumb/12671459.jpg",
+    "ingredients": [
+      "1 bell pepper",
+      "1 carrot",
+      "1 cup broccoli",
+      "2 tbsp soy sauce",
+      "1 tsp sesame oil",
+      "1 clove garlic, minced",
+      "1 tsp ginger, minced",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Chop vegetables into bite-sized pieces.",
+      "Heat sesame oil in a pan, add garlic and ginger, sauté for 1 minute.",
+      "Add vegetables and stir-fry until tender-crisp.",
+      "Pour in soy sauce and season with salt and pepper.",
+      "Serve hot."
+    ]
   },
   {
     "id": 4,
     "title": "Beef Stew",
     "summary": "A hearty and comforting stew made with tender beef chunks, carrots, potatoes, and onions, simmered in a rich broth for a deep, savory flavor.",
-    "image": "https://wallpaperaccess.com/full/15716170.jpg"
+    "image": "https://wallpaperaccess.com/full/15716170.jpg",
+    "ingredients": [
+      "500g beef chunks",
+      "2 carrots",
+      "3 potatoes",
+      "1 onion",
+      "4 cups beef broth",
+      "1 tsp thyme",
+      "2 bay leaves",
+      "Salt and pepper to taste"
+    ],
+    "instructions": [
+      "Brown beef chunks in a pot, then set aside.",
+      "Sauté onions, carrots, and potatoes until softened.",
+      "Add beef back to the pot with broth, thyme, and bay leaves.",
+      "Simmer for 2 hours until beef is tender.",
+      "Season with salt and pepper before serving."
+    ]
   },
   {
     "id": 5,
     "title": "Caesar Salad",
     "summary": "A classic salad made with crispy romaine lettuce, croutons, Parmesan cheese, and Caesar dressing. Perfect as a side or main dish.",
-    "image": "https://wallpaperaccess.com/full/12671531.jpg"
+    "image": "https://wallpaperaccess.com/full/12671531.jpg",
+    "ingredients": [
+      "4 cups romaine lettuce",
+      "1 cup croutons",
+      "1/2 cup Parmesan cheese",
+      "1/4 cup Caesar dressing"
+    ],
+    "instructions": [
+      "Toss lettuce with Caesar dressing.",
+      "Top with croutons and Parmesan cheese.",
+      "Serve immediately."
+    ]
   },
   {
     "id": 6,
     "title": "Pancakes",
     "summary": "Fluffy and soft pancakes made from flour, eggs, milk, and a bit of baking powder, served with syrup, butter, and fresh fruit.",
-    "image": "https://wallpaperaccess.com/thumb/3759109.jpg"
+    "image": "https://wallpaperaccess.com/thumb/3759109.jpg",
+    "ingredients": [
+      "1 cup flour",
+      "1 egg",
+      "1 cup milk",
+      "1 tbsp sugar",
+      "1 tsp baking powder",
+      "Butter for cooking",
+      "Syrup and fruit for serving"
+    ],
+    "instructions": [
+      "Mix dry ingredients in a bowl.",
+      "Whisk in the egg and milk to form a batter.",
+      "Cook pancakes in a heated buttered pan until bubbles form.",
+      "Flip and cook until golden brown.",
+      "Serve with syrup and fruit."
+    ]
   },
   {
     "id": 7,
     "title": "Fish Tacos",
     "summary": "Crispy fried fish fillets wrapped in soft tortillas, topped with fresh cabbage slaw, avocado, and a tangy lime crema.",
-    "image": "https://wallpaperaccess.com/full/6392205.jpg"
+    "image": "https://wallpaperaccess.com/full/6392205.jpg",
+    "ingredients": [
+      "4 fish fillets",
+      "1 cup cabbage, shredded",
+      "1 avocado, sliced",
+      "Tortillas",
+      "1/4 cup sour cream",
+      "1 tbsp lime juice",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Fry fish fillets until crispy.",
+      "Mix sour cream with lime juice and season with salt.",
+      "Assemble tacos with fish, cabbage slaw, avocado, and lime crema.",
+      "Serve immediately."
+    ]
   },
   {
     "id": 8,
     "title": "Chilli Chicken",
     "summary": "A spicy, tangy, and flavorful dish made with chicken, bell peppers, onions, and a combination of chili sauce and soy sauce.",
-    "image": "https://wallpaperaccess.com/thumb/4138980.jpg"
+    "image": "https://wallpaperaccess.com/thumb/4138980.jpg",
+    "ingredients": [
+      "500g chicken breast",
+      "1 onion",
+      "1 bell pepper",
+      "2 tbsp chili sauce",
+      "2 tbsp soy sauce",
+      "1 tsp ginger",
+      "1 tsp garlic",
+      "Salt to taste"
+    ],
+    "instructions": [
+      "Stir-fry chicken with ginger and garlic.",
+      "Add vegetables and stir-fry for a few more minutes.",
+      "Pour in chili sauce and soy sauce, cook for 5 minutes.",
+      "Serve hot with rice."
+    ]
   },
   {
     "id": 9,
     "title": "Vegetarian Pizza",
     "summary": "A pizza topped with a variety of fresh vegetables like mushrooms, onions, peppers, and olives, with mozzarella and marinara sauce.",
-    "image": "https://wallpaperaccess.com/thumb/462773.jpg"
+    "image": "https://wallpaperaccess.com/thumb/462773.jpg",
+    "ingredients": [
+      "1 pizza dough",
+      "1/2 cup marinara sauce",
+      "1 cup mozzarella cheese",
+      "1/2 cup mushrooms",
+      "1/2 cup bell peppers",
+      "1/4 cup olives"
+    ],
+    "instructions": [
+      "Preheat oven to 220°C.",
+      "Roll out pizza dough and spread marinara sauce.",
+      "Top with mozzarella and vegetables.",
+      "Bake for 15-20 minutes or until golden."
+    ]
   },
   {
     "id": 10,
     "title": "Chocolate Cake",
     "summary": "A rich and decadent chocolate cake with layers of creamy chocolate frosting, perfect for any celebration.",
-    "image": "https://wallpaperaccess.com/full/1986088.jpg"
-  },
-  {
-    "id": 11,
-    "title": "Chicken Curry",
-    "summary": "A rich and flavorful curry made with chicken, tomatoes, onions, and a blend of aromatic spices like turmeric, cumin, and coriander.",
-    "image": "https://wallpaperaccess.com/thumb/3353275.jpg"
-  },
-  {
-    "id": 12,
-    "title": "Chicken Noodles",
-    "summary": "A delicious stir-fry made with tender chicken, vegetables, and noodles, seasoned with soy sauce and other savory spices.",
-    "image": "https://wallpaperaccess.com/thumb/10583546.jpg"
-  },
-  {
-    "id": 13,
-    "title": "Shrimp Scampi",
-    "summary": "A delicious pasta dish with shrimp sautéed in garlic butter sauce, lemon, and white wine, served over spaghetti or linguine.",
-    "image": "https://wallpaperaccess.com/full/2359955.jpg"
-  },
-  {
-    "id": 14,
-    "title": "Butter Chicken",
-    "summary": "A rich and creamy Indian curry made with tender chicken cooked in a spiced tomato-based gravy with butter and cream.",
-    "image": "https://wallpaperaccess.com/thumb/5912736.jpg"
-  },
-  {
-    "id": 15,
-    "title": "Meatballs",
-    "summary": "Juicy and flavorful meatballs made with ground beef, herbs, and spices, often served with marinara sauce or in a sub sandwich.",
-    "image": "https://wallpaperaccess.com/thumb/5683216.jpg"
-  },
-  {
-    "id": 16,
-    "title": "Carrot Cake",
-    "image": "https://wallpaperaccess.com/thumb/6903843.jpg",
-    "summary": "Bell peppers stuffed with a mixture of ground beef, rice, onions, and tomatoes, then baked and topped with melted cheese."
-  },
-  {
-    "id": 17,
-    "title": "Black Forest Cake",
-    "summary": "A decadent German dessert made with layers of chocolate sponge cake, whipped cream, cherries, and chocolate shavings.",
-    "image": "https://wallpaperaccess.com/thumb/12937153.jpg"
-  },
-  {
-    "id": 18,
-    "title": "Sushi",
-    "summary": "A Japanese dish made with vinegared rice, often combined with seafood, vegetables, and sometimes tropical fruits, wrapped in seaweed.",
-    "image": "https://wallpaperaccess.com/thumb/1321841.gif"
+    "image": "https://wallpaperaccess.com/full/1986088.jpg",
+    "ingredients": [
+      "1 cup flour",
+      "1 cup sugar",
+      "1/2 cup cocoa powder",
+      "1/2 cup butter",
+      "2 eggs",
+      "1 cup milk",
+      "1 tsp baking powder"
+    ],
+    "instructions": [
+      "Preheat oven to 180°C.",
+      "Mix dry ingredients, then add wet ingredients.",
+      "Pour batter into a greased cake pan.",
+      "Bake for 30 minutes, then cool before frosting."
+    ]
   }
 ]
+
