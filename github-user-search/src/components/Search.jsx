@@ -29,11 +29,6 @@ const Search = () => {
     }
   };
 
-  if (data) {
-    console.log(data);
-    console.log(data[0].login);
-  }
-
   return (
     <div className="">
       <form onSubmit={handleSubmit}>
