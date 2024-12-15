@@ -1,21 +1,21 @@
 import axios from "axios";
 
 export const fetchUserData = async (username, location, minRepos) => {
-  let q = [`q=${username}`];
+  let query = [`q=${username}`];
+    console.log("https://api.github.com/search/users?q") 
 
   if (location) {
-    q += `+location:${location}`;
+    query += `+location:${location}`;
   }
 
   if (minRepos) {
-    q += `+repos:>=${minRepos}`;
+    query += `+repos:>=${minRepos}`;
   }
 
- 
   try {
     // Step 1: Search for users
     const searchResponse = await axios.get(
-      `https://api.github.com/search/users?${q}`
+      `https://api.github.com/search/users?${query}`
     );
     const users = searchResponse.data.items;
 
@@ -35,4 +35,3 @@ export const fetchUserData = async (username, location, minRepos) => {
     throw error;
   }
 };
-
